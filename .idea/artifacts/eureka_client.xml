@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="eureka-client">
+    <output-path>$PROJECT_DIR$/eureka-client/target</output-path>
+    <root id="archive" name="eureka-client.jar">
+      <element id="javaee-facet-resources" facet="eureka-client/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="eureka-client" />
+          <element id="module-output" name="eureka-server" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="eureka-server/web/Web" />
+    </root>
+  </artifact>
+</component>
